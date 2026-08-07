@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="40" viewBox="0 0 112 40">
+  <defs>
+    <style>
+      @keyframes wave { 0%,100%{transform:translateY(2px)} 50%{transform:translateY(-2px)} }
+      .w1{animation:wave 1.6s ease-in-out infinite}
+      .w2{animation:wave 1.6s ease-in-out .14s infinite}
+      .w3{animation:wave 1.6s ease-in-out .28s infinite}
+    </style>
+  </defs>
+  <g font-family="Segoe UI Emoji, sans-serif" font-size="30">
+    <text x="0" y="32" class="w1">👋</text>
+    <text x="40" y="30" class="w2">👋</text>
+    <text x="80" y="32" class="w3">👋</text>
+  </g>
+</svg>
